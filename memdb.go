@@ -7,7 +7,7 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/hashicorp/go-immutable-radix"
+	"github.com/titus12/go-immutable-radix"
 )
 
 // MemDB is an in-memory database providing Atomicity, Consistency, and

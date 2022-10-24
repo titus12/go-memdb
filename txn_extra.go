@@ -1,6 +1,6 @@
 package memdb
 
-import iradix "github.com/hashicorp/go-immutable-radix"
+import iradix "github.com/titus12/go-immutable-radix"
 
 func (txn *Txn) Count(table string) (int, error) {
 	// Get the index value to scan
