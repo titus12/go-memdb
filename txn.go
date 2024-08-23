@@ -7,7 +7,7 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	iradix "github.com/hashicorp/go-immutable-radix"
+	iradix "github.com/titus12/go-immutable-radix"
 )
 
 const (
